@@ -48,7 +48,7 @@ function sendOTP() {
           e.preventDefault()
           if(otpInp.value == otp){
             alert('Email address verified...')
-            window.location.replace('/index.html')
+            window.location.replace('/main.html')
           }else{
             alert('invalid')
           }
